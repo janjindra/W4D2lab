@@ -10,8 +10,10 @@
   <input id="last-name" type="text" name="last_name" value=<%=@order.last_name%> />
   <label for="pizza-select">Select A Pizza:</label>
   <select id="pizza-select" name="topping" >
-    <option value="margherita">Margherita</option>
-    <option value="calzone">Calzone</option>
+
+    <option <%= selected if @order.topping == "Margherita" %> value="margherita">Margherita</option>
+    <option <%= selected if @order.topping == "Calzone" %> value="calzone">Calzone</option>
+
   </select>
   <label for="quantity">Quantity:</label>
   <input id="quantity" type="number" name="quantity" value=<%=@order.quantity%> />

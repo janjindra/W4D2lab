@@ -1,0 +1,55 @@
+
+
+body {
+
+  background-color: AliceBlue;
+
+
+}
+
+h1 {
+color: DarkRed;
+font-style: Verdana;
+background-color: Grey;
+border-color: DarkRed;
+border-style: solid;
+border-width: thick;
+
+
+
+}
+
+img {
+background-color: LightGrey;
+
+}
+
+nav {
+background-color: LightGrey;
+
+}
+
+ul {
+font-style: Verdana;
+font-style: italic;
+font-size: 20px;
+border-color: DarkRed;
+border-style: solid;
+border-width: thin;
+}
+
+form {
+font-size: 20px;
+
+}
+
+#new_button {
+
+    font-size: 20px;
+    color: white;
+    background: DarkRed;
+    border: 2px solid rgb(11, 34, 34);
+    border-radius: 10px;
+    
+
+}

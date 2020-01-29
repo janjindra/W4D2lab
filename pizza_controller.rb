@@ -48,15 +48,12 @@ get '/pizza-orders/:id/edit' do
   erb(:edit)
 end
 
-# get '/pizza-orders/:id/edit' do
-#   erb(:edit)
-# end
-#
 post '/pizza-orders/:id' do
-@order = PizzaOrder.new(params)
+@order = PizzaOrder.new(params)  #??????
 @order.update()
 erb(:update)
 end
+
 
 #=====
 post '/pizza-orders/:id/delete' do

@@ -1,16 +1,22 @@
 <p>This is new page.</p>
 
+
 <form method="post" action="/pizza-orders">
   <label for="first-name">First Name:</label>
   <input id="first-name" type="text" name="first_name"  />
+  <br><br>
   <label for="last-name">Last Name:</label>
   <input id="last-name" type="text" name="last_name" />
+  <br><br>
   <label for="pizza-select">Select A Pizza:</label>
   <select id="pizza-select" name="topping">
     <option value="margherita">Margherita</option>
     <option value="calzone">Calzone</option>
   </select>
+  <br><br>
   <label for="quantity">Quantity:</label>
   <input id="quantity" type="number" name="quantity" />
-  <input type="submit"  value="Order Pizza">
+  <br><br>
+  <br>
+  <input id="new_button" type="submit"  value="Order Pizza" style="height:70px; width:200px">
 </form>
